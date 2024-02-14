@@ -1,0 +1,406 @@
+@media (max-width: 376px) {
+
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {font-family: Arial, Helvetica, sans-serif;}
+
+  a {text-decoration: none;}
+
+
+  .container {
+    width: 376px;
+    /* height: 500px; */
+    margin: 0 auto;
+    /* background: url('/space.jpg') no-repeat; */
+    /* z-index: 2; */
+  }
+
+  .crew {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .crew  {
+    color: #f3e2e2;
+    text-align: center;
+
+    img {
+      width: 178px;
+      height: 222px;
+      flex-shrink: 0;
+    }
+
+    h2 {
+      color: #FFF;
+      font-family: Barlow Condensed;
+      font-size: 16px;
+      font-weight: 400;
+      letter-spacing: 2.7px;
+      text-transform: uppercase;
+      padding-top: 24px;
+      padding-bottom: 32px;
+
+      span {
+          font-weight: 700;
+          opacity: 0.25;
+      }
+    }
+
+    h3 {
+      color: #FFF;
+      font-family: Bellefair;
+      font-size: 16px;
+      font-weight: 400;
+      opacity: 0.4951;
+      padding-bottom: 8px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      color: #FFF;
+      font-family: Bellefair;
+      font-size: 24px;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+
+    p {
+      color: #D0D6F9;
+      font-family: Barlow;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 25px;
+      width: 327px;
+      margin: 0 auto;
+    }
+
+    h6 {
+      margin: 0 auto;
+      width: 327px;
+      height: 1px;
+      margin-top: -4px;
+      background: #383B4B;
+    }
+
+  }
+
+  .team button {
+    width: 10px;
+    height: 10px;
+    flex-shrink: 0;
+    margin-right: 16px;
+    border-radius: 50%;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    background-color: transparent;
+  }
+
+  .team button.active {
+    background-color: #FFF;
+  }
+
+  .pen {
+    padding-bottom: 104px;
+  }
+
+  .pilot {
+    padding-bottom: 79px;
+  }
+
+  .pilot2 {
+    padding-bottom: 54px;
+  }
+
+  .pilot {
+    padding-bottom: 79px;
+  }
+
+  .crewTeam {
+    display: none;
+  }
+
+  .man {
+    display: none;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 768px) {
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {font-family: Arial, Helvetica, sans-serif;}
+
+  a {text-decoration: none;}
+
+
+  .container {
+    width: 1440px;
+    /* height: 500px; */
+    margin: 0 auto;
+    /* background: url('/nasa2.jpg') no-repeat;
+    background-size: 100% auto; */
+  }
+
+  .crewTeam {
+    /* background: url('/star.jpg') no-repeat;
+    background-size: 100% auto; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .crewTeam  {
+    color: #f3e2e2;
+    text-align: center;
+
+    img {
+      width: 456.372px;
+      height: 572px;
+      flex-shrink: 0;
+    }
+
+    h2 {
+      color: #FFF;
+      font-family: Barlow Condensed;
+      font-size: 20px;
+      font-weight: 400;
+      letter-spacing: 3.375px;
+      text-transform: uppercase;
+      padding-top: 40px;
+      padding-bottom: 60px;
+
+      span {
+          font-weight: 700;
+          opacity: 0.25;
+      }
+    }
+
+    h3 {
+      color: #FFF;
+      font-family: Bellefair;
+      font-size: 24px;
+      font-weight: 400;
+      opacity: 0.4994;
+      padding-bottom: 8px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      color: #FFF;
+      font-family: Bellefair;
+      font-size: 40px;
+      font-weight: 400;
+      line-height: normal;
+      text-transform: uppercase;
+      padding-bottom: 16px;
+    }
+
+    p {
+      margin: 0 auto;
+      width: 458px;
+      color: #D0D6F9;
+      font-family: Barlow;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+      padding-bottom: 40px;
+    }
+
+  }
+
+  .team button {
+    width: 10px;
+    height: 10px;
+    flex-shrink: 0;
+    margin-right: 16px;
+    border-radius: 50%;
+    margin-top: 32px;
+    margin-bottom: 40px;
+    background-color: gray;
+  }
+
+  .team button.active {
+    background-color: #FFF;
+  }
+
+  .pen {
+    padding-bottom: 104px;
+  }
+
+  .pilot {
+    padding-bottom: 79px;
+  }
+
+  .pilot2 {
+    padding-bottom: 54px;
+  }
+
+  .pilot {
+    padding-bottom: 79px;
+  }
+
+  .crew {
+    display: none;
+  }
+
+  .man {
+    display: none;
+  }
+}
+
+
+@media (min-width: 769px) {
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {font-family: Arial, Helvetica, sans-serif;}
+
+  a {text-decoration: none;}
+
+
+  .container {
+    width: 1440px;
+    /* height: 500px; */
+    margin: 0 auto;
+    /* background: url('/nasa2.jpg') no-repeat;
+    background-size: 100% auto; */
+  }
+
+  .crewTeam {
+    /* background: url('/star.jpg') no-repeat;
+    background-size: 100% auto; */
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+  }
+
+  .crewTeam  {
+    color: #f3e2e2;
+    /* text-align: center; */
+
+    h2 {
+      color: #FFF;
+      font-family: Barlow Condensed;
+      font-size: 28px;
+      font-weight: 400;
+      letter-spacing: 4.725px;
+      text-transform: uppercase;
+      padding-top: 76px;
+      padding-left: 166px;
+      padding-bottom: 154px;
+
+      span {
+          font-weight: 700;
+          opacity: 0.25;
+      }
+    }
+
+    h3 {
+      color: #FFF;
+      font-family: Bellefair;
+      font-size: 32px;
+      font-weight: 400;
+      opacity: 0.4994;
+      padding-bottom: 15px;
+      text-transform: uppercase;
+      padding-left: 166px;
+      padding-top: 311px;
+      opacity: 0.5042;
+    }
+
+    h1 {
+      color: #FFF;
+      font-family: Bellefair;
+      font-size: 56px;
+      font-weight: 400;
+      line-height: normal;
+      text-transform: uppercase;
+      padding-bottom: 27px;padding-left: 166px;
+    }
+
+    p {
+      margin: 0 auto;
+      width: 458px;
+      color: #D0D6F9;
+      font-family: Barlow;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 32px;
+      padding-bottom: 120px;
+      margin-left: 166px;
+    }
+
+  }
+
+  .team button {
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+    margin-right: 24px;
+    border-radius: 50%;
+    margin-top: 32px;
+    margin-bottom: 94px;
+    background-color: gray;
+  }
+
+  .team button:first-child {
+    margin-left: 166px;
+  }
+
+  .team button.active {
+    background-color: #FFF;
+  }
+
+  .pen {
+    padding-bottom: 104px;
+  }
+
+  .pilot {
+    padding-bottom: 79px;
+  }
+
+  .pilot2 {
+    padding-bottom: 54px;
+  }
+
+  .pilot {
+    padding-bottom: 79px;
+  }
+
+  .crew {
+    display: none;
+  }
+
+  .man2 {
+    display: none;
+  }
+
+  .man {
+    float: right;
+    margin-top: -701px;
+  }
+
+  .man3 {
+    float: right;
+    margin-top: -653px;
+  }
+  .man4 {
+    float: right;
+    margin-top: -605px;
+  }
+
+
+}

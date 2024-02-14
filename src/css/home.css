@@ -1,0 +1,225 @@
+@media (max-width: 376px) {
+
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {font-family: Arial, Helvetica, sans-serif;}
+
+  a {text-decoration: none;}
+
+  .container {
+    width: 376px;
+    /* height: 667px; */
+    margin: 0 auto;
+    /* background: url('/space.jpg') no-repeat; */
+    padding-bottom: 1px;
+
+  }
+  
+  .home {
+    text-align: center;
+    
+    h2 {
+      color: #D0D6F9;
+      font-family: Barlow Condensed;
+      font-size: 16px;
+      font-weight: 400;
+      letter-spacing: 2.7px;
+      padding-top: 48px;
+      padding-bottom: 16px;
+    }
+
+    h1 {
+      color: #FFF;
+      font-family: Bellefair;
+      font-size: 80px;
+      font-weight: 400;
+      line-height: 100px;
+    }
+
+    p {
+      color: #D0D6F9;
+      font-family: Barlow;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 25px;
+      padding-bottom: 81px;
+    }
+
+    h3 {
+      margin: 0 auto;
+      color: #0B0D17;
+      font-family: Bellefair;
+      font-size: 20px;
+      font-weight: 400;
+      letter-spacing: 1.25px;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      /* background-color: #FFF; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: url('/kure.svg') no-repeat;
+      margin-bottom: 58px;
+      padding-bottom: 0;
+    }
+  }
+}
+
+@media (min-width: 376px) and (max-width: 768px) {
+
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+  body {font-family: Arial, Helvetica, sans-serif;}
+
+  a {text-decoration: none;}
+
+  .container {
+    width: 768px;
+    margin: 0 auto;
+    padding-bottom: 1px;
+
+  }
+
+  .home {
+    text-align: center;
+    /* background: url('/nasa2.jpg') no-repeat;
+    background-size: 100% 1060px;  */
+    
+    h2 {
+      color: #D0D6F9;
+      font-family: Barlow Condensed;
+      font-size: 20px;
+      font-weight: 400;
+      letter-spacing: 3.375px;
+      padding-top: 106px;
+    }
+
+    h1 {
+      color: #FFF;
+      font-family: Bellefair;
+      font-size: 150px;
+      font-weight: 400;
+      line-height: 100px;
+      padding-bottom: 24px;
+      line-height: 150px;
+    }
+
+    p {
+      margin: 0 auto;
+      width: 444px;
+      color: #D0D6F9;
+      font-family: Barlow;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+      padding-bottom: 156px;
+    }
+
+    h3 {
+      margin: 0 auto;
+      color: #0B0D17;
+      font-family: Bellefair;
+      font-size: 32px;
+      font-weight: 400;
+      letter-spacing: 2px;
+      width: 242px;
+      height: 242px;
+      border-radius: 50%;
+      background-color: #FFF;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 90px;
+      padding-bottom: 0;
+    }
+  }
+}
+
+
+@media (min-width: 769px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+  
+    body {font-family: Arial, Helvetica, sans-serif;}
+  
+    a {text-decoration: none;}
+  
+    .container {
+      width: 1440px;
+      margin: 0 auto;
+      padding-bottom: 1px;
+  
+    }
+  
+    .home {
+      text-align: center;
+      /* background: url('/nasa2.jpg') no-repeat;
+      background-size: 100% 1060px;  */
+      
+      h2 {
+        color: #D0D6F9;
+        font-family: Barlow Condensed;
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 3.375px;
+        padding-top: 106px;
+        display: none;
+      }
+  
+      h1 {
+        color: #FFF;
+        font-family: Bellefair;
+        font-size: 150px;
+        font-weight: 400;
+        line-height: 100px;
+        padding-bottom: 24px;
+        line-height: 150px;
+        padding-left: 50px;
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+  
+      p {
+        margin: 0 auto;
+        width: 650px;
+        color: #D0D6F9;
+        font-family: Barlow;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        padding-bottom: 156px;
+      }
+  
+      h3 {
+        margin: 0 auto;
+        color: #0B0D17;
+        font-family: Bellefair;
+        font-size: 32px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        width: 242px;
+        height: 242px;
+        border-radius: 50%;
+        background-color: #FFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 90px;
+        padding-bottom: 0;
+        padding-left: 5px;
+      }
+    }
+}
+ 
